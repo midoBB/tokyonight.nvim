@@ -109,7 +109,7 @@ function M.get(c, opts)
     LspReferenceWrite           = { bg = c.fg_gutter }, -- used for highlighting "write" references
     LspSignatureActiveParameter = { bg = Util.blend_bg(c.bg_visual, 0.4), bold = true },
     LspCodeLens                 = { fg = c.comment },
-    LspInlayHint                = { bg = Util.blend_bg(c.blue7, 0.1), fg = c.dark3 },
+    LspInlayHint                = { bg = Util.blend_bg(c.blue7, 0.2), fg = c.dark5 },
     LspInfoBorder               = { fg = c.border_highlight, bg = c.bg_float },
 
     -- diagnostics
